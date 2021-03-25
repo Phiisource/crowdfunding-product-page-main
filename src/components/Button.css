@@ -1,0 +1,26 @@
+:root {
+    --primary: hsl(176, 50%, 47%);
+    --secondary: hsl(176, 72%, 28%);
+    --black: hsl(0, 0%, 0%);
+    --grey: hsl(0, 0%, 48%);
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+}
+
+.btn--secondary {
+    background-color: var(--secondary);
+}
+
+.btn--disabled {
+    background-color: var(--grey);
+}
