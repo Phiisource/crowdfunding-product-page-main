@@ -1,0 +1,6 @@
+.header-container {
+    /*background-image: url('../images/image-hero-desktop.jpg');*/
+    background-color: red;
+    height: 200px;
+    width: 100%;
+}

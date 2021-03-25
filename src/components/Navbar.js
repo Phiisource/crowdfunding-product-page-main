@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
+import '../App.js'
 
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -16,7 +17,7 @@ function NavBar() {
     return (
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to='/' className='navbar-logo'>
+                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                     crowdfunding
                 </Link>
                 <div className='menu-icon' onClick={handleMenuClick}>
@@ -33,8 +34,6 @@ function NavBar() {
                         <Link to='/' className='nav-link' onClick={closeMobileMenu}>Get Started</Link>
                     </li>
                 </ul>
-
-
             </div>
         </nav>
     )
