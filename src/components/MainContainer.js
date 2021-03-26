@@ -8,7 +8,9 @@ function MainContainer({children, containerStyle}) {
 
     return (
         <div className={`main__container ${checkButtonStyle}`}>
-            {children}
+            <div className="inner__main__container">
+                {children}
+            </div>
         </div>
     )
 }

@@ -1,19 +1,22 @@
 .main__container {
     width: 100%;
     background-color: white;
-    border: 1px solid;
     border-radius: 5px;
     margin: 25px 0;
 }
 
 .main__container__borderless {
-    border: white;
+    border: 1px solid white;
 }
 
 .main__container__lightborder {
-    border: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 90%);
 }
 
 .main__container__greyborder {
-    border: hsl(0, 0%, 48%);
+    border: 1px solid hsl(0, 0%, 85%);
+}
+
+.inner__main__container {
+    padding: 50px;
 }
