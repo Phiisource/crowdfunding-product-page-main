@@ -2,7 +2,7 @@
     width: 100%;
     background-color: white;
     border-radius: 5px;
-    margin: 25px 0;
+    margin-top: 25px;
 }
 
 .main__container__borderless {
@@ -19,4 +19,10 @@
 
 .inner__main__container {
     padding: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .inner__main__container {
+        padding: 20px;
+    }
 }

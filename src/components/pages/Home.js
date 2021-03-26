@@ -14,20 +14,23 @@ function Home() {
                     <MainContainer containerStyle="main__container__lightborder">
                         <div className="presentation__content">
                             <div className="logo">LOGO</div>
-                            <h1>Mastercraft Bamboo Monitor Riser</h1>
+                            <h2>Mastercraft Bamboo Monitor Riser</h2>
                             <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
-                            <Button buttonStyle="btn--primary">Back this project</Button>
-                            <Button buttonStyle="btn--disabled">Bookmark TO EDIT</Button>
+                            <div className="buttons__container">
+                                <Button buttonStyle="btn--primary">Back this project</Button>
+                                <Button buttonStyle="btn--disabled">Bookmark TO EDIT</Button>
+                            </div>
                         </div>
                     </MainContainer>
                     <MainContainer containerStyle="main__container__lightborder">
-                        <p>  $89,914 of $100,000 backed
+                        <h1>$89,914</h1>
+                        <p>of $100,000 backed
                         5,007 total backers
                         56 days left
                         </p>
                     </MainContainer>
                     <MainContainer containerStyle="main__container__lightborder">
-                        <h1>About this project</h1>
+                        <h3>About this project</h3>
 
                         <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen
                         to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve

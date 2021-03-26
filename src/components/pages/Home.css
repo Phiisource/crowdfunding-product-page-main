@@ -9,6 +9,13 @@
     width: 50vw;
 }
 
+.presentation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 960px) {
     .content__wrapper {
         width: 90vw;
