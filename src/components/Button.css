@@ -1,16 +1,17 @@
 :root {
-    --primary: hsl(176, 50%, 47%);
-    --secondary: hsl(176, 72%, 28%);
+    --primary: hsl(176, 72%, 28%);
+    --secondary: hsl(176, 50%, 47%);
     --black: hsl(0, 0%, 0%);
     --grey: hsl(0, 0%, 48%);
 }
 
 .btn {
     padding: 10px 20px;
-    border-radius: 50%;
+    border-radius: 70px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
+    border: none;
 }
 
 .btn--primary {

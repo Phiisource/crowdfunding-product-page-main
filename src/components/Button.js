@@ -15,3 +15,5 @@ export const Button = ({children, type, onClick, buttonStyle}) => {
         </Link>
     )
 }
+
+export default Button

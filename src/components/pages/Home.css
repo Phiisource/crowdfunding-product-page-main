@@ -1,0 +1,16 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__wrapper {
+    width: 50vw;
+}
+
+@media screen and (max-width: 960px) {
+    .content__wrapper {
+        width: 90vw;
+    }
+}

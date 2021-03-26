@@ -61,9 +61,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  /*.NavbarItems {
-    position: relative;
-  }*/
 
   .nav-menu {
     display: flex;
@@ -72,7 +69,7 @@
     height: 100%;
     position: absolute;
     top: 80px;
-    opacity: 0;
+    display: none;
   }
 
   .navbar-container {
@@ -83,6 +80,7 @@
     background: rgba(0, 0, 0, 0.5);
     opacity: 1;
     z-index: 1;
+    display: block;
   }
 
   .nav-link {
