@@ -1,27 +1,33 @@
 :root {
-    --primary: hsl(176, 72%, 28%);
-    --secondary: hsl(176, 50%, 47%);
+    --primary:  hsl(176, 50%, 47%);
+    --secondary: hsl(176, 72%, 28%);
     --black: hsl(0, 0%, 0%);
     --grey: hsl(0, 0%, 48%);
 }
 
 .btn {
-    padding: 10px 20px;
+    padding: 15px 35px;
     border-radius: 70px;
     cursor: pointer;
     font-weight: 700;
-    color: white;
     border: none;
 }
 
 .btn--primary {
     background-color: var(--primary);
+    color: white;
 }
 
-.btn--secondary {
+.btn--primary:hover {
     background-color: var(--secondary);
 }
 
+.btn--secondary {
+    background-color: hsl(0, 0%, 98%);
+    color: var(--primary);
+}
+
 .btn--disabled {
-    background-color: var(--grey);
+    background-color: hsl(0, 0%, 78%);
+    color: white;
 }

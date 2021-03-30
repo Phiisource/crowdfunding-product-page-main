@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from '../Header.js'
 import Button from '../Button.js'
-import '../../App.css'
 import MainContainer from '../MainContainer'
+import CardItem from '../CardItem'
+import '../../App.css'
 import './Home.css'
 
 function Home() {
@@ -34,34 +35,33 @@ function Home() {
 
                         <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen
                         to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve
-                        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
+                        your posture and make you more comfortable while at work, helping you stay focused on the task at hand.</p>
 
-                        Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer
+                        <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer
                         to allow notepads, pens, and USB sticks to be stored under the stand.</p>
                         <MainContainer containerStyle="main__container__greyborder">
-                            <h1>Bamboo Stand</h1>
-                            <p>Pledge $25 or more
-                            You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
-                            you’ll be added to a special Backer member list.
-                            101 left
-                            Select Reward</p>
+                            <CardItem
+                                cardName="Bamboo Stand"
+                                minPledge={25}
+                                description="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+                                you’ll be added to a special Backer member list."
+                                limitNumberEntry={101}/>
                         </MainContainer>
                         <MainContainer containerStyle="main__container__greyborder">
-                            <h1>Black Edition Stand</h1>
-                            <p>Pledge $75 or more
-                            You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
-                            member list. Shipping is included.
-                            64 left
-                            Select Reward
-                            </p>
+                            <CardItem
+                                cardName="Black Edition Stand"
+                                minPledge={75}
+                                description="You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+                                member list. Shipping is included."
+                                limitNumberEntry={64}/>
                         </MainContainer>
                         <MainContainer containerStyle="main__container__greyborder">
-                            <h1>Mahogany Special Edition</h1>
-                            <p>Pledge $200 or more
-                            You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
-                            to our Backer member list. Shipping is included.
-                            0 left
-                        Out of Stock</p>
+                            <CardItem
+                                cardName="Mahogany Special Edition"
+                                minPledge={200}
+                                description="You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+                                to our Backer member list. Shipping is included."
+                                limitNumberEntry={0}/>
                         </MainContainer>
                     </MainContainer>
                 </div>

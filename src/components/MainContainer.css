@@ -21,6 +21,13 @@
     padding: 50px;
 }
 
+.centered__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 @media screen and (max-width: 960px) {
     .inner__main__container {
         padding: 20px;

@@ -7,13 +7,17 @@
 
 body {
   background-color: hsl(0, 0%, 98%);
+  font-size: 16px;
 }
 
 p {
   color: hsl(0, 0%, 48%);
+  line-height: 2;
+  margin: 20px 0;
 }
 
 h1, h2, h3 {
   color: black;
   font-weight: 700;
+  margin-bottom: 30px;
 }
