@@ -39,30 +39,32 @@ function Home() {
 
                         <p>Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer
                         to allow notepads, pens, and USB sticks to be stored under the stand.</p>
-                        <MainContainer containerStyle="main__container__greyborder">
-                            <CardItem
-                                cardName="Bamboo Stand"
-                                minPledge={25}
-                                description="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+                        <div className="card__items__container">
+                            <MainContainer containerStyle="main__container__greyborder">
+                                <CardItem
+                                    cardName="Bamboo Stand"
+                                    minPledge={25}
+                                    description="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
                                 you’ll be added to a special Backer member list."
-                                limitNumberEntry={101}/>
-                        </MainContainer>
-                        <MainContainer containerStyle="main__container__greyborder">
-                            <CardItem
-                                cardName="Black Edition Stand"
-                                minPledge={75}
-                                description="You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+                                    limitNumberEntry={101} />
+                            </MainContainer>
+                            <MainContainer containerStyle="main__container__greyborder">
+                                <CardItem
+                                    cardName="Black Edition Stand"
+                                    minPledge={75}
+                                    description="You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
                                 member list. Shipping is included."
-                                limitNumberEntry={64}/>
-                        </MainContainer>
-                        <MainContainer containerStyle="main__container__greyborder">
-                            <CardItem
-                                cardName="Mahogany Special Edition"
-                                minPledge={200}
-                                description="You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
+                                    limitNumberEntry={64} />
+                            </MainContainer>
+                            <MainContainer containerStyle="main__container__greyborder">
+                                <CardItem
+                                    cardName="Mahogany Special Edition"
+                                    minPledge={200}
+                                    description="You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
                                 to our Backer member list. Shipping is included."
-                                limitNumberEntry={0}/>
-                        </MainContainer>
+                                    limitNumberEntry={0} />
+                            </MainContainer>
+                        </div>
                     </MainContainer>
                 </div>
             </div>

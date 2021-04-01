@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.card__items__container {
+    margin-top: 40px;
+}
+
 @media screen and (max-width: 960px) {
     .content__wrapper {
         width: 90vw;

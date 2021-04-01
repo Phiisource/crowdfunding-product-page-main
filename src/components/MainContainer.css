@@ -18,7 +18,7 @@
 }
 
 .inner__main__container {
-    padding: 50px;
+    padding: 40px;
 }
 
 .centered__container {
@@ -30,6 +30,6 @@
 
 @media screen and (max-width: 960px) {
     .inner__main__container {
-        padding: 20px;
+        padding: 30px;
     }
 }

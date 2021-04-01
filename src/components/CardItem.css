@@ -1,0 +1,33 @@
+.card-header, .card-bottom, .numberLeft {
+    display: flex;
+}
+
+.card-header span {
+    color: hsl(176, 50%, 47%);
+}
+
+.card-header h3, .numberLeft {
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.numberLeft h2 {
+    align-self: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+.numberLeft p {
+    margin: 0;
+}
+
+.card-bottom .btn-mobile {
+    align-self: center;
+}
+
+@media screen and (max-width: 960px) {
+    .card-header, .card-bottom {
+        display: block;
+    }
+}
